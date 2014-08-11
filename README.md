@@ -7,7 +7,7 @@ Vaadin4Spring Spring Security sample
 
 ##Live Demo
 
-<http://vaadin4spring-security-social.herokuapp.com>
+<http://http://vaadin4spring-security.herokuapp.com/>
 
 This project is and example of integration Vaddin framework with
 Vaadin4Spring + Vaadin4Spring-MVP + SpringBoot + SpringSecurity
