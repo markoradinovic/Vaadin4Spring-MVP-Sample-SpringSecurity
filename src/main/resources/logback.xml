@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="org.vaadin.spring" level="INFO"/>
+    
+    <logger name="org.vaadin.spring.sample" level="INFO"/>
+    
+    <logger name="org.springframework.security" level="INFO"/>
+    
+    <logger name="org.springframework.social" level="INFO"/>
+
+</configuration>
