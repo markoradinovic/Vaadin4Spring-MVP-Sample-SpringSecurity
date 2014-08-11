@@ -16,7 +16,7 @@ import com.vaadin.server.VaadinRequest;
 import com.vaadin.ui.UI;
 
 @VaadinUI
-@Title("Vaadin4Spring Security Soacial Demo")
+@Title("Vaadin4Spring Security Demo")
 @Theme("valo")
 @SuppressWarnings("serial")
 public class MainUI extends UI {
@@ -39,8 +39,6 @@ public class MainUI extends UI {
     	setLocale(new Locale.Builder().setLanguage("sr").setScript("Latn").setRegion("RS").build());
     	
     	SecuredNavigator securedNavigator = new SecuredNavigator(MainUI.this, mainLayout, springViewProvider, security, eventBus);
-//        Navigator navigator = new Navigator(MainUI.this, (ViewDisplay)mainLayout);
-//        navigator.addProvider(springViewProvider);
         securedNavigator.addViewChangeListener(mainLayout);
         
         setContent(mainLayout);
